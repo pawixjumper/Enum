@@ -1,4 +1,7 @@
-package pl.gornik;
+package pl.gornik.shape;
+
+import pl.gornik.shape.Color;
+import pl.gornik.shape.Shape;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -9,7 +12,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
 
         List<Shape> shapes = new ArrayList<>();
-        shapes.add(new Shape("kwadrat",'S',Color.RED));
+        shapes.add(new Shape("kwadrat",'S', Color.RED));
         shapes.add(new Shape("kwadrat",'M',Color.BLUE));
         shapes.add(new Shape("kwadrat",'S',Color.GREEN));
         shapes.add(new Shape("koło",'S',Color.PURPLE));

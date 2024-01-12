@@ -1,4 +1,4 @@
-package pl.gornik;
+package pl.gornik.shape;
 
 public class Shape {
 
